@@ -1,3 +1,5 @@
+
+// Permite coger todos los gifs desde el api
 export const getGifs = async( category ) => {
 
     const url = `https://api.giphy.com/v1/gifs/search?api_key=prtWnSqnNIa5DAfaEkpHe0cJnbUT41SC&q=${ category }&limit=10`;
