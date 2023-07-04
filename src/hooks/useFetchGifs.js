@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { getGifs } from '../helpers/getGifs';
 
+// Custom Hook
 export const useFetchGifs = ( category ) => {
  
     const [images, setImages] = useState([]);
